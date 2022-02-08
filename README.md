@@ -1,76 +1,60 @@
+# math-magicians
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+> math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: make simple calculations and read a random math-related quote.
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+![screenshot](./Screenshot.gif)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+You can see [the app live here](https://sahar-abdelsamad.github.io/math-magicians/)
 
+## Setup
 
-## Getting Started
+### Clone this repository
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+```bash
+$ git clone git@github.com:Sahar-AbdelSamad/math-magicians.git
+$ cd math-magicians
+```
 
+### Run project
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
+```bash
+$ npm install
+$ npm run start # this will make webpack watching for your changes in code
+```
 
 ### Run tests
 
-### Deployment
+To run the test just use the following command!
 
+```bash
+$ npm test
+```
 
+## Built With
+
+- React
+- Webpack
+- JavaScript
+- CSS
 
 ## Authors
 
-👤 **Author1**
+👤 **Sahar Abdel Samad**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@sahar-abdelsamad](https://github.com/Sahar-AbdelSamad)
+- Twitter: [@abdelsamadsahar](https://twitter.com/AbdelSamadSahar)
+- LinkedIn: [abdel-samad-sahar](https://www.linkedin.com/in/abdel-samad-sahar-353977223/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Sahar-AbdelSamad/math-magicians/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
