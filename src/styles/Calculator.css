@@ -2,32 +2,28 @@ body {
   font-size: 12px;
 }
 
-.table {
-  border-collapse: collapse;
-}
-
-td {
-  border: 1px solid #d0d0d0;
-  width: 60px;
-  height: 40px;
-  text-align: center;
-}
-
-.input {
+.result {
   background-color: #858293;
-  width: 252px;
-  height: 40px;
-  border: none;
-  padding: 0;
   padding-right: 5px;
-  text-align: end;
   color: white;
+  text-align: end;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-tr {
+button {
+  width: 70px;
+  height: 40px;
+  border: 1px solid #d0d0d0;
   background-color: #dfdfdf;
 }
 
-td:last-child:not(:first-of-type) {
+.zero {
+  width: 140px;
+}
+
+div button:last-child {
   background-color: #ff8e00;
 }
