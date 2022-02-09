@@ -1,4 +1,4 @@
-import './Calculator.css';
+import '../styles/Calculator.css';
 
 const react = require('react');
 
