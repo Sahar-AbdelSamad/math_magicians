@@ -6,6 +6,7 @@ import '../styles/Calculator.css';
 export default class Calculator extends react.Component {
   constructor(props) {
     super(props);
+    this.onClick = this.onClick.bind(this);
     this.state = {
       total: 0,
       next: null,

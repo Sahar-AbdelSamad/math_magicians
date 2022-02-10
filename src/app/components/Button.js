@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 export default class Button extends react.Component {
   constructor(props) {
     super(props);
-    this.btn = this.props.btn;
+    this.btn = props.btn;
   }
 
   render() {
