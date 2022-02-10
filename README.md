@@ -11,7 +11,7 @@
 ### Clone this repository
 
 ```bash
-$ git clone git@github.com:Sahar-AbdelSamad/math-magicians.git
+$ git clone git@github.com:Sahar-AbdelSamad/math_magicians.git
 $ cd math-magicians
 ```
 
