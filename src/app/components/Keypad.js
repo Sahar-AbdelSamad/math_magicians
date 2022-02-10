@@ -2,7 +2,7 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import PropTypes from 'prop-types';
 
-const Button = ({ click }) => {
+const Keypad = ({ click }) => {
   const btn = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', ' ='];
   return (
     <div className="buttons">
@@ -15,7 +15,7 @@ const Button = ({ click }) => {
   );
 };
 
-Button.propTypes = {
+Keypad.propTypes = {
   click: PropTypes.func.isRequired,
 };
-export default Button;
+export default Keypad;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from './Button';
+import Keypad from './Keypad';
 import calculate from '../logic/calculate';
 import '../styles/Calculator.css';
 
@@ -11,7 +11,6 @@ const Calculator = () => {
   };
 
   const { total, next, operation } = displayed;
-
   return (
     <div className="calculator">
       <div className="result">
@@ -19,7 +18,7 @@ const Calculator = () => {
         {operation}
         {next}
       </div>
-      <Button click={onClick} />
+      <Keypad click={onClick} />
     </div>
   );
 };
