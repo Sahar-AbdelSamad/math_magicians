@@ -23,7 +23,7 @@ body {
   border: 1px solid #d0d0d0;
 }
 
-.zero {
+.buttons button:nth-child(17) {
   grid-area: 5/1/5/3;
 }
 
