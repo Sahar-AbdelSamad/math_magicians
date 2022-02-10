@@ -12,7 +12,7 @@
 
 ```bash
 $ git clone git@github.com:Sahar-AbdelSamad/math_magicians.git
-$ cd math-magicians
+$ cd math_magicians
 ```
 
 ### Run project
