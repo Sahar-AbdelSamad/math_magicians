@@ -6,24 +6,28 @@ body {
   background-color: #858293;
   padding-right: 5px;
   color: white;
-  text-align: end;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-button {
-  width: 70px;
-  height: 40px;
-  border: 1px solid #d0d0d0;
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(5, 40px);
   background-color: #dfdfdf;
 }
 
-.zero {
-  width: 140px;
+.buttons button {
+  border: 1px solid #d0d0d0;
 }
 
-div button:last-child {
+.zero {
+  grid-area: 5/1/5/3;
+}
+
+.buttons button:nth-child(4n),
+.buttons button:last-child {
   background-color: #ff8e00;
 }
