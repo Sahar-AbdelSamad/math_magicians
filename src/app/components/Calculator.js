@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Keypad from './Keypad';
 import calculate from '../logic/calculate';
+import Header from './Header';
 import '../styles/Calculator.css';
 
 const Calculator = () => {
@@ -12,14 +13,20 @@ const Calculator = () => {
 
   const { total, next, operation } = displayed;
   return (
-    <div className="calculator">
-      <div className="result">
-        {total}
-        {operation}
-        {next}
-      </div>
-      <Keypad click={onClick} />
-    </div>
+    <>
+      <Header />
+      <main>
+        <h2>Let&apos;s do some Math!</h2>
+        <div className="calculator">
+          <div className="result">
+            {total}
+            {operation}
+            {next}
+          </div>
+          <Keypad click={onClick} />
+        </div>
+      </main>
+    </>
   );
 };
 
