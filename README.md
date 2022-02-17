@@ -4,7 +4,7 @@
 
 > math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: make simple calculations and read a random math-related quote.
 
-![screenshot](./Screenshot.png)
+![screenshot](./Screenshot.gif)
 
 ## Setup
 
@@ -30,6 +30,10 @@ To run the test just use the following command!
 $ npm test
 ```
 
+## Live Demo
+
+Press here [to see the app live](https://sahar-abdelsamad.github.io/math_magicians/)
+
 ## Built With
 
 - React
@@ -43,7 +47,7 @@ $ npm test
 
 - GitHub: [@sahar-abdelsamad](https://github.com/Sahar-AbdelSamad)
 - Twitter: [@abdelsamadsahar](https://twitter.com/AbdelSamadSahar)
-- LinkedIn: [abdel-samad-sahar](https://www.linkedin.com/in/abdel-samad-sahar-353977223/)
+- LinkedIn: [abdel-samad-sahar](https://www.linkedin.com/in/sahar-abdel-samad/)
 
 ## 🤝 Contributing
 
