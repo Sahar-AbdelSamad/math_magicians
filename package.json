@@ -2,6 +2,7 @@
   "name": "math_magicians",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sahar-abdelsamad.github.io/math_magicians/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
