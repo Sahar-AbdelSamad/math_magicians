@@ -1,0 +1,12 @@
+.quote {
+  background-color: #5c1851;
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, 0.836);
+  border-radius: 6%;
+  border: none;
+  display: block;
+}
+
+.quote:hover {
+  background-color: #410f38;
+}
