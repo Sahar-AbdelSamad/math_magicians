@@ -1,4 +1,4 @@
-import calculate from '../app/logic/calculate';
+import calculate from '../logic/calculate';
 
 describe('The result of calculate is correct', () => {
   test('4 + 2 = 6', () => {

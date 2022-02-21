@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Header from '../app/components/Header';
+import Header from '../components/Header';
 
 it('renders correctly', () => {
   const tree = renderer
