@@ -30,9 +30,12 @@ To run the test just use the following command!
 $ npm test
 ```
 
-## Live Demo
+## Live Demos
 
-Press here [to see the app live](https://sahar-abdelsamad.github.io/math_magicians/)
+- [Github Deployment](https://sahar-abdelsamad.github.io/math_magicians/)
+- [Heroku Deployment](https://math-magicians-deployheroku.herokuapp.com/)
+- [Netlify Deployment](https://math-magicians-sahar.netlify.app/)
+
 
 ## Built With
 
