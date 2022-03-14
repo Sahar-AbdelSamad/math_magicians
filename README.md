@@ -19,7 +19,7 @@ $ cd math_magicians
 
 ```bash
 $ npm install
-$ npm run start # this will make webpack watching for your changes in code
+$ npm run start
 ```
 
 ### Run tests
